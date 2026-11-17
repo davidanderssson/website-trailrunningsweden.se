@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #192a4a;
+  color: #f4f4f4;
+  font-family: var(--font-montserrat), Arial, sans-serif;
+}
+
+.landing {
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.landing p {
+  margin-bottom: 1.25rem;
+  font-size: .875rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.landing h1 {
+  font-family: var(--font-archivo), Arial, sans-serif;
+  font-size: clamp(2.6rem, 8vw, 6.5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.045em;
+}
+
+.landing h1 span {
+  display: block;
+  color: #ffcc00;
+}
